@@ -121,7 +121,7 @@ if(isset($_POST['name'])) {
 </div>
 
 <div class="getleads">
-	<section id="hero1-1-a" class="hero bg-img" style="background: url('images/bg.jpg') no-repeat center;">
+	<section id="hero1-1-a" class="hero bg-img" style="background: url('images/bg.png') no-repeat center;">
 		<div class="container vertical-center-rel">
 			<div class="row">
 				<div style="text-align:center;">
@@ -138,16 +138,26 @@ if(isset($_POST['name'])) {
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div >
-						<img src="images/1a.png">
+					<div style="font-size: 29px; text-align:center;">Tôi 3 tháng trước</div>
+					<div style="font-size: 25px; text-align:center;color: #a72592;"><strong>Dù cố ngủ 8 tiếng/ngày</strong></div>
+					<div class="truoc">
+						<div>Thiếu năng lượng<img src="images/cancel-icon.png"></div>
+						<div>Mệt mỏi<img src="images/cancel-icon.png"></div>
+						<div>Suy giảm trí nhớ<img src="images/cancel-icon.png"></div>
+						<div>Không tìm thấy niềm vui sống<img src="images/cancel-icon.png"></div>
 					</div>
-					<br>
 				</div>
 				<div class="col-md-6">
-					<div>
-						<img src="images/2a.png">
+					<div style="font-size: 29px; text-align:center;">Tôi hiện tại</div>
+					<div style="font-size: 25px; text-align:center;color: #a72592;"><strong>Chỉ cần ngủ 6 tiếng/ngày</strong></div>
+					<div class="sau">
+						<div><img src="images/ok-icon.png">Tràn đầy năng lượng</div>
+						<div><img src="images/ok-icon.png">Sảng khoái</div>
+						<div><img src="images/ok-icon.png">Trí nhớ được cải thiện</div>
+						<div><img src="images/ok-icon.png">Yêu đời, yêu cuộc sống
+						<br>yêu công việc hơn
+						</div>
 					</div>
-					<br>
 				</div>
 			</div>
 
@@ -155,10 +165,7 @@ if(isset($_POST['name'])) {
 				<div class="col-md-6" style="margin-top: 60px;">
 					<h3>BÍ QUYẾT CỦA TÔI LÀ AN GIẤC NỮ</h3>
 					<p>
-						Tôi không còn chập chờn, khó ngủ và
-						dễ dàng ngủ lại khi tỉnh dậy giữa đêm,
-						không còn bị mộng mị cũng không còn
-						đau đầu nữa.
+						Nhờ An Giấc Nữ, tôi đã tìm lại cho mình giấc ngủ tự nhiên hàng đêm. Cuộc sống của tôi giống như được hồi sinh vậy.
 					</p>
 				</div>
 				<div class="col-md-6" style="border-left: 1px solid #A72592;">
@@ -211,13 +218,13 @@ if(isset($_POST['name'])) {
 	<section id="cta1-3" class="p-y-md bg-edit" data-selector="block" style="background: url('images/bghome.png') top center; padding-top:30px;padding-bottom:10px;">
 		<div class="container">
 			<div class="row">
-				<p style=" font-size:22px; padding:5px; font-weight:bold; color:#A72592; text-align:center; text-transform:uppercase">HƠN 20.000 PHỤ NỮ VIỆT NAM ĐÃ TIN DÙNG AN GIẤC NỮ</p>
+
 				<section class="slider">
 					<div class="flexslider carousel">
 						<ul class="slides" style="margin:auto;">
 							<li>
-								<img src="http://khamphukhoa.vn/images/khamphukhoa/dan-van-phong-de-bi-viem-am-dao.jpg" />
-								<p>Sau một thời gian sử dụng An Giấc nữ, giấc ngủ đã quay trở lại với tôi thật dễ dàng. Dù không ngủ được 7-8 tiếng nhưng tôi vẫn cảm thấy thật tỉnh táo và sảng khoái mỗi khi thức dậy.
+								<img src="images/khachang1.jpg" />
+								<p>Sau một thời gian sử dụng An Giấc Nữ, giấc ngủ đã quay trở lại với tôi thật dễ dàng. Dù không ngủ được 7-8 tiếng nhưng tôi vẫn cảm thấy thật tỉnh táo và sảng khoái mỗi khi thức dậy.
 								</p>
 								<div class="info">
 									<span>Nguyễn Thu Yến</span>
@@ -225,8 +232,8 @@ if(isset($_POST['name'])) {
 								</div>
 							</li>
 							<li>
-								<img src="http://trithucsong.com/data/trithucsong_suckhoe/data/suc-khoe-alotin-vn-images-song-khoe/alotin.vn_1404199563_e7b6f419a6fce1070d964e9d3e7f249f.jpg" />
-								<p>Tôi rất yên tâm khi sử dụng AGN vì thành phần của thuốc đều là những thảo dược mà mình biết. Sử dụng một thời gian tôi thấy thật bất ngờ khi kết hợp các loại thảo dược lại có thể tạo ra được 1 bài thuốc chữa trị mất ngủ hiệu quả đến như thế.
+								<img src="images/khachang2.jpg" />
+								<p>Tôi rất yên tâm khi sử dụng An Giấc Nữ vì thành phần của thuốc đều là những thảo dược mà mình biết. Sử dụng một thời gian tôi thấy thật bất ngờ khi kết hợp các loại thảo dược lại có thể tạo ra được 1 bài thuốc chữa trị mất ngủ hiệu quả đến như thế.
 								</p>
 								<div class="info">
 									<span>Trần Hoa</span>
@@ -234,8 +241,8 @@ if(isset($_POST['name'])) {
 								</div>
 							</li>
 							<li>
-								<img src="http://img.news.zing.vn/img/691/t691916.jpg" />
-								<p>An Giấc nữ đúng là bài thuốc mà tôi tìm kiếm bấy lâu nay. Tôi ngủ được sâu giấc hơn, không còn chập chờn, mộng mị và cả ngày luôn thấy khỏe khoắn, tràn đầy năng lượng.
+								<img src="images/khachang3.jpg" />
+								<p>An Giấc Nữ đúng là bài thuốc mà tôi tìm kiếm bấy lâu nay. Tôi ngủ được sâu giấc hơn, không còn chập chờn, mộng mị và cả ngày luôn thấy khỏe khoắn, tràn đầy năng lượng.
 								</p>
 								<div class="info">
 									<span>Lê Mỹ Linh</span>
@@ -243,8 +250,8 @@ if(isset($_POST['name'])) {
 								</div>
 							</li>
 							<li>
-								<img src="http://skyweb.com.vn/uploads/607044965_tu_van.png" />
-								<p>An Giấc nữ như mang lại cho tôi một cuộc sống mới vậy. Tôi không còn bị mất ngủ nữa, không còn bị các cơn đau đầu do mất ngủ hành hạ. Cảm ơn An Giấc nữ.
+								<img src="images/khachang4.png" />
+								<p>An Giấc Nữ như mang lại cho tôi một cuộc sống mới vậy. Tôi không còn bị mất ngủ nữa, không còn bị các cơn đau đầu do mất ngủ hành hạ. Cảm ơn An Giấc Nữ.
 								</p>
 								<div class="info">
 									<span>Ngô Mỹ Hân</span>
@@ -252,8 +259,8 @@ if(isset($_POST['name'])) {
 								</div>
 							</li>
 							<li>
-								<img src="http://3.i.baomoi.xdn.vn/16/04/02/230/19031468/6_90775.jpg" />
-								<p>Trước đây, khi chưa sử dụng AGN, tôi rất khó khăn trong việc ngủ lại khi bị thức dậy giữa đêm, bây giờ thì điều đó không còn là vấn đề nữa, tôi có giấc ngủ lại thật dễ dàng.
+								<img src="images/khachang5.jpg" />
+								<p>Trước đây, khi chưa sử dụng An Giấc Nữ, tôi rất khó khăn trong việc ngủ lại khi bị thức dậy giữa đêm, bây giờ thì điều đó không còn là vấn đề nữa, tôi có giấc ngủ lại thật dễ dàng.
 								</p>
 								<div class="info">
 									<span>Phạm Bích Ngọc</span>
@@ -264,6 +271,7 @@ if(isset($_POST['name'])) {
 					</div>
 				</section>
 
+				<p style=" font-size:22px; padding:5px; font-weight:bold; color:#A72592; text-align:center; text-transform:uppercase">HƠN 20.000 PHỤ NỮ VIỆT NAM ĐÃ TIN DÙNG AN GIẤC NỮ</p>
 
 				<!-- FlexSlider -->
 				<script defer src="js/jquery.flexslider.js"></script>
@@ -288,8 +296,6 @@ if(isset($_POST['name'])) {
 				</script>
 			</div>
 
-
-
 	</section>
 </div>
 <div class="getleads">
@@ -298,7 +304,7 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="text-center wow fadeIn" style="visibility: visible; animation: fadeIn;">
-						<h2 data-selector="text1" style="color:#ff9700; text-transform:uppercase; font-size:28px;">quy trình làm ra sản phẩm</h2>
+						<h2 data-selector="text1" style="color:#d14cb8; text-transform:uppercase; font-size:28px;">quy trình làm ra sản phẩm</h2>
 						<p class="lead" data-selector="text2" style="color:#333333;font-size:18px;margin-bottom:10px;">
 							Sản phẩm được bào chế theo <strong>công thức đặc biệt</strong> bằng công nghệ hiện đại chiết xuất những gì tinh
 							<strong>túy nhất của dược liệu</strong> và cô đặc bên trong một viên nén đặc biệt có cấu tạo <strong>không bọc màng film
@@ -311,61 +317,55 @@ if(isset($_POST['name'])) {
 				<div id="quytrinh">
 					<div data-wow-delay="1s" class="wow zoomIn quytrinh" style="visibility: visible; animation-delay: 1s; animation-name: zoomIn;"></div>
 					<div data-wow-delay="1.2s" class="wow zoomIn quytrinhx" style="visibility: visible; animation-delay: 1.2s; animation-name: zoomIn;"><img src="images/quy-trinh1.png"> </div>
-					<div data-wow-delay="1.5s" class="wow zoomIn quytrinh1" style="visibility: visible; animation-delay: 1.5s; animation-name: zoomIn;"><img src="images/nut1.png"> </div>
+					<div data-wow-delay="1.5s" class="wow zoomIn quytrinh1" style="visibility: visible; animation-delay: 1.5s; animation-name: zoomIn;"><img src="images/dinhlang.gif"  style="width: 150px;height: 150px; border-radius: 150px;"> </div>
 					<div data-wow-delay="1.7s" class="wow zoomIn qttext1" style="visibility: visible; animation-delay: 1.7s; animation-name: zoomIn;">
 						<p>
-							<a id="cao_dinh_lang" class="btn" rel="popover" data-content="" style="font-size: 26px; color: #69696E;font-weight: normal;padding:0px;">Cao Đinh Lăng</a>
+							<a id="cao_dinh_lang" class="btn" rel="popover" data-content="" style="font-size: 22px; color: #69696E;font-weight: normal;padding:0px;">Cao Đinh Lăng 200 mg</a>
 							<script>
-								var image = '<img src="images/cao_dinh_lang.png">';
+								var image = '<img src="images/cao_dinh_lang.png"  style="width: 150px;height: 150px;">';
 								$('#cao_dinh_lang').popover({placement: 'bottom', content: image, html: true});
-//								$('#cao_dinh_lang').popover({placement: 'bottom', content: image, html: true}).popover('show');
 							</script>
 						</p>
 					</div>
-					<div data-wow-delay="2s" class="wow zoomIn quytrinh2" style="visibility: visible; animation-delay: 2s; animation-name: zoomIn;"><img src="images/nut234.png"> </div>
+					<div data-wow-delay="2s" class="wow zoomIn quytrinh2" style="visibility: visible; animation-delay: 2s; animation-name: zoomIn;"><img src="images/caolactien.jpg" style="width: 150px;height: 150px; border-radius: 150px;"> </div>
 					<div data-wow-delay="2.2s" class="wow bounceInRight qttext2" style="visibility: visible; animation-delay: 2.2s; animation-name: bounceInRight;">
 						<p>
-							<a id="cao_lac_tien" class="btn" rel="popover" data-content="" style="font-size: 26px; color: #69696E;font-weight: normal;padding:0px;">Cao Lạc Tiên</a>
+							<a id="cao_lac_tien" class="btn" rel="popover" data-content="" style="font-size: 22px; color: #69696E;font-weight: normal;padding:0px;">Cao Lạc Tiên 140 mg</a>
 							<script>
 								var image = '<img src="images/cao_lac_tien.png">';
 								$('#cao_lac_tien').popover({placement: 'bottom', content: image, html: true});
-//								$('#cao_lac_tien').popover({placement: 'bottom', content: image, html: true}).popover('show');
 							</script>
 						</p>
 					</div>
 
-					<div data-wow-delay="2.5s" class="wow zoomIn quytrinh3" style="visibility: visible; animation-delay: 2.5s; animation-name: zoomIn;"><img src="images/nut234.png"> </div>
+					<div data-wow-delay="2.5s" class="wow zoomIn quytrinh3" style="visibility: visible; animation-delay: 2.5s; animation-name: zoomIn;"><img src="images/caoichmau.jpg" style="width: 150px;height: 150px; border-radius: 150px;"> </div>
 					<div data-wow-delay="2.7s" class="wow bounceInLeft qttext3" style="visibility: visible; animation-delay: 2.7s; animation-name: bounceInLeft;">
 						<p style="font-size: 26px;">
-							<a id="cao_ich_mau" class="btn" rel="popover" data-content=""  style="font-size: 26px; color: #69696E;font-weight: normal;padding:0px;">Cao Ích Mẫu</a>
+							<a id="cao_ich_mau" class="btn" rel="popover" data-content=""  style="font-size: 22px; color: #69696E;font-weight: normal;padding:0px;">Cao Ích Mẫu 100 mg</a>
 							<script>
 								var image = '<img src="images/cao_ich_mau.png">';
 								$('#cao_ich_mau').popover({placement: 'bottom', content: image, html: true});
-//								$('#cao_ich_mau').popover({placement: 'bottom', content: image, html: true}).popover('show');
 							</script>
 						</p>
 					</div>
 
-					<div data-wow-delay="3s" class="wow zoomIn quytrinh4" style="visibility: visible; animation-delay: 3s; animation-name: zoomIn;"><img src="images/nut234.png"> </div>
+					<div data-wow-delay="3s" class="wow zoomIn quytrinh4" style="visibility: visible; animation-delay: 3s; animation-name: zoomIn;"><img src="images/caohuongphu.jpg" style="width: 150px;height: 150px; border-radius: 150px;"> </div>
 					<div data-wow-delay="3.2s" class="wow bounceInLeft qttext4" style="visibility: visible; animation-delay: 3.2s; animation-name: bounceInLeft;">
 						<p>
-							<a id="cao_huong_phu" class="btn" rel="popover" data-content="" style="font-size: 26px; color: #69696E;font-weight: normal;padding:0px;">Cao Hương Phụ</a>
+							<a id="cao_huong_phu" class="btn" rel="popover" data-content="" style="font-size: 22px; color: #69696E;font-weight: normal;padding:0px;">Cao Hương Phụ 40 mg</a>
 							<script>
 								var image = '<img src="images/cao_huong_phu.png">';
 								$('#cao_huong_phu').popover({placement: 'bottom', content: image, html: true});
-//								$('#cao_huong_phu').popover({placement: 'bottom', content: image, html: true}).popover('show');
 							</script>
 						</p>
 					</div>
-					<div data-wow-delay="3.5s" class="wow bounceInUp quytrinh6" style="visibility: visible; animation-delay: 3.5s; animation-name: bounceInUp;"><img src="images/nanocurcumin.png"> </div>
-					<div data-wow-delay="4s" class="wow zoomIn quytrinh5" style="visibility: visible; animation-delay: 4s; animation-name: zoomIn;"><img src="images/nut5.png"> </div>
-					<div data-wow-delay="4.2s" class="wow fadeInRight qttext5" style="visibility: visible; animation-delay: 4.2s; animation-name: fadeInRight;">
+					<div data-wow-delay="3.4s" class="wow zoomIn quytrinh5" style="visibility: visible; animation-delay: 4s; animation-name: zoomIn;"><img src="images/caochitu.jpg" style="width: 150px;height: 150px; border-radius: 150px;"> </div>
+					<div data-wow-delay="3.7s" class="wow fadeInRight qttext5" style="visibility: visible; animation-delay: 4.2s; animation-name: fadeInRight;">
 						<p>
-							<a id="cao_chi_tu" class="btn" rel="popover" data-content="" style="font-size: 26px; color: #69696E;font-weight: normal;padding:0px;">Cao Chi Tử</a>
+							<a id="cao_chi_tu" class="btn" rel="popover" data-content="" style="font-size: 22px; color: #69696E;font-weight: normal;padding:0px;">Cao Chi Tử 20 mg</a>
 							<script>
 								var image = '<img src="images/cao_chi_tu.png">';
 								$('#cao_chi_tu').popover({placement: 'bottom', content: image, html: true});
-//								$('#cao_chi_tu').popover({placement: 'bottom', content: image, html: true}).popover('show');
 							</script>
 						</p>
 					</div>
@@ -400,30 +400,20 @@ if(isset($_POST['name'])) {
 							<?php } ?>
 
 							<div class="form-group">
-								<input id="name" class="form-control" name="name" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; } ?>" type="text" required placeholder="Họ và tên *:" required oninvalid="setCustomValidity('Họ và tên không để trống')" oninput="setCustomValidity('')">
+								<input id="name" class="form-control" name="name" value="<?php if(isset($_POST['name'])) { echo $_POST['name']; } ?>" type="text" required placeholder="Họ và tên *" required oninvalid="setCustomValidity('Họ và tên không để trống')" oninput="setCustomValidity('')">
 							</div>
 							<div class="form-group">
-								<input id="email" class="form-control" name="email" value="<?php if(isset($_POST['email'])) { echo $_POST['email']; } ?>" type="text" required placeholder="Địa chỉ email *:" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="setCustomValidity('Địa chỉ email không chính xác!')" oninput="setCustomValidity('')">
+								<input id="email" class="form-control" name="email" value="<?php if(isset($_POST['email'])) { echo $_POST['email']; } ?>" type="text" required placeholder="Địa chỉ email *" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="setCustomValidity('Địa chỉ email không chính xác!')" oninput="setCustomValidity('')">
 							</div>
 							<div class="form-group">
-								<input id="phone" class="form-control"name="phone" value="<?php if(isset($_POST['phone'])) { echo $_POST['phone']; } ?>" type="text" required placeholder="Số điện thoại *:" required pattern="^[0-9]{10,12}$" oninvalid="setCustomValidity('Số điện thoại không đúng')" oninput="setCustomValidity('')">
+								<input id="phone" class="form-control"name="phone" value="<?php if(isset($_POST['phone'])) { echo $_POST['phone']; } ?>" type="text" required placeholder="Số điện thoại *" required pattern="^[0-9]{10,12}$" oninvalid="setCustomValidity('Số điện thoại không đúng')" oninput="setCustomValidity('')">
 							</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<textarea id="address_1" name="address_1" class="form-control" rows="5" style="" placeholder="Địa chỉ nhận hàng"><?php if(isset($_POST['address_1'])) { echo $_POST['address_1']; } ?></textarea>
-						</div>
-						<div class="form-group m-b-0" style="margin: auto; text-align: center;">
-							<button type="submit" name="dia_chi_nhan_hang" class="btn btn-green wow pulse" data-wow-iteration="2" data-selector="btn" style="font-weight: 700; color: rgb(255, 255, 255); background-color: #403152; border-width: 0px; border-style: solid; padding: 20px; font-size: 16px; max-width: 400px; visibility: visible; animation-iteration-count: 2; animation-name: pulse;">ĐĂNG KÝ ĐẶT MUA</button>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<textarea id="question_1" name="question_1" class="form-control" rows="5" style="" placeholder="Nội dung câu hỏi"><?php if(isset($_POST['question_1'])) { echo $_POST['question_1']; } ?></textarea>
-						</div>
-						<div class="form-group m-b-0" style="margin: auto; text-align: center;">
-							<button type="submit" name="noi_dung_cau_hoi" class="btn btn-green wow pulse" data-wow-iteration="2" data-selector="btn" style="font-weight: 700; color: rgb(255, 255, 255); background-color: #A72592; border-width: 0px; border-style: solid; padding: 20px; font-size: 16px; max-width: 400px; visibility: visible; animation-iteration-count: 2; animation-name: pulse;">GỬI CÂU HỎI</button>
-						</div>
+							<div class="form-group">
+								<textarea id="question_1" name="question_1" class="form-control" rows="5" style="" placeholder="Nội dung câu hỏi & Địa chỉ nhận hàng"><?php if(isset($_POST['question_1'])) { echo $_POST['question_1']; } ?></textarea>
+							</div>
+							<div class="form-group m-b-0" style="margin: auto; text-align: center;">
+								<button type="submit" name="noi_dung_cau_hoi" class="btn btn-green wow pulse" data-wow-iteration="2" data-selector="btn" style="font-weight: 700; color: rgb(255, 255, 255); background-color: #A72592; border-width: 0px; border-style: solid; padding: 20px; font-size: 16px; max-width: 400px; visibility: visible; animation-iteration-count: 2; animation-name: pulse;">GỬI CÂU HỎI</button>
+							</div>
 					</div>
 				</form>
 			</div>
@@ -439,22 +429,18 @@ if(isset($_POST['name'])) {
 			<div class="row" style="border-top: 5px solid #A72592; margin-top:30px;">
 				<div class="col-md-4">
 					<p style="padding-top:20px;"><img src="images/logo-white.png"></p>
-					<p style="color:#fff; font-size:13px; padding-top:6px;margin:0;">Nhathai New Technology JSC.,</p>
-					<p style="color:#fff; font-size:13px;margin:0;">Oranges Informatic Communication (OIC)</p>
 				</div>
 				<div class="col-md-4">
 					<p style="padding-top:20px;color:#fff;"><b>Liên hệ:</b></p>
 					<p style="color:#fff; font-size:13px;margin:0;"> Công ty CP Dược Phẩm Huệ Đức</p>
 					<p style="color:#fff; font-size:13px;margin:0;">32/47 Nguyên Hồng, P. Láng Hạ, Q. Đống Đa, TP. Hà Nội</p>
-					<p style="color:#fff; font-size:13px;margin:0;">GPKD: 0106761854 – ngày cấp: 27/01/2015</p>
-					<p style="color:#fff; font-size:13px;margin:0;">Giấy phép công bố: 659/2015/ATTP-XNCB</p>
 					<p style="color:#fff; font-size:13px;margin:0;">Điện thoại (04) 3766 7999 - Fax (04) 3622 7979</p>
 					<p style="color:#fff; font-size:13px;margin:0;">Tư vấn miễn phí 1800 6684</p>
 				</div>
 				<div class="col-md-4">
 					<p style="padding-top:20px; padding-bottom:8px;color:#fff;"><b>Find us:</b></p>
 					<a href="#"><img src="images/gplus.png"></a>
-					<a href="#"><img src="images/icon-face.png"></a>
+					<a href="https://www.facebook.com/angiacnu.vn"><img src="images/icon-face.png"></a>
 					<a href="#"><img src="images/icon-ytb.png"></a>
 					<a href="#"><img src="images/icon-imp.png"></a>
 				</div>

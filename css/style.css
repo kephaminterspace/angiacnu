@@ -56,20 +56,20 @@
 #qtmobile { display:none;}
 .quytrinh { text-align:center; margin-top:50px;}
 .quytrinhx {text-align:center;}
-.quytrinh1 { position:absolute; margin-top:-470px; margin-left:555px;}
-.quytrinh2 { position:absolute; margin-top:-315px; margin-left:235px;}
+.quytrinh1 { position:absolute; margin-top:-480px; margin-left:445px;}
+.quytrinh2 { position:absolute; margin-top:-375px; margin-left:140px;}
 .quytrinh3 { position:absolute; margin-top:-215px; margin-left:865px;}
-.quytrinh4 { position:absolute; margin-top:-160px; margin-left:515px;}
+.quytrinh4 { position:absolute; margin-top:-120px; margin-left:485px;}
 .quytrinh5 { position:absolute; margin-top:-300px; margin-left:530px;}
 .quytrinh6 {text-align:center;}
 .taisaochon_title{
   color:#A72592; text-transform:uppercase; font-size:28px; padding-bottom:50px;
 }
-.qttext1 { width:300px; font-size:12px; position:absolute; margin-top:-440px; margin-left:620px;}
-.qttext2 { width:300px; font-size:12px; position:absolute; margin-top:-300px; margin-left:320px;}
-.qttext3 { width:300px; font-size:12px; position:absolute; margin-top:-210px; margin-left:550px; text-align:right}
-.qttext4 { width:300px; font-size:12px; position:absolute; margin-top:-150px; margin-left:200px; text-align:right}
-.qttext5 { position:absolute; margin-top:-300px; margin-left:630px;  width:300px; font-size:12px;}
+.qttext1 { width:300px; font-size:12px; position:absolute; margin-top:-450px; margin-left:600px;}
+.qttext2 { width:300px; font-size:12px; position:absolute; margin-top:-315px; margin-left:295px;}
+.qttext3 { width:300px; font-size:12px; position:absolute; margin-top:-145px; margin-left:570px; text-align:right}
+.qttext4 { width:300px; font-size:12px; position:absolute; margin-top:-60px; margin-left:180px; text-align:right}
+.qttext5 { position:absolute; margin-top:-270px; margin-left:680px;  width:300px; font-size:12px;}
 
 .getleads {
   }
@@ -1050,7 +1050,7 @@
   .getleads .navbar-nav > .active > a,
   .getleads .navbar-nav > .active > a:hover,
   .getleads .navbar-nav > .active > a:focus {
-     color:#f99e1a;
+     color:#d14cb8;
 	 }
   .getleads .navbar-toggle {
     border: none;
@@ -5478,3 +5478,33 @@
       padding-bottom: 56.25%; } }
 
 /*# sourceMappingURL=style.css.map */
+.truoc{
+  background: url("../images/truoc.jpeg") no-repeat center center scroll;
+  height: 300px;
+  width: 100%;
+}
+.truoc div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+.truoc div img{
+  margin-left:10px;
+}
+.sau{
+  background: url("../images/sau.jpeg") no-repeat center center scroll;
+  height: 300px;
+  width: 100%;
+}
+
+.sau img{
+  margin-right:10px;
+}
+
+.sau div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
