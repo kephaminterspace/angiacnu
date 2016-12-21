@@ -71,7 +71,7 @@ if(isset($_POST['name'])) {
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-
+	<title>An Giấc Nữ</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -125,9 +125,9 @@ if(isset($_POST['name'])) {
 		<div class="container vertical-center-rel">
 			<div class="row">
 				<div style="text-align:center;">
-					<h1 style="color:#003300; font-size:60px; padding-bottom:0; margin:0;text-transform:uppercase">AN GIẤC NỮ</h1>
-					<p style="color:#003300; font-size:30px; margin:0; padding:0;text-transform:uppercase">"QUẲNG MỌI LO ÂU, TRÒN SÂU GIẤC NGỦ"</p>
-					<p style="color:#df0d3f; font-size:30px; font-weight:bold; margin:0; padding:0;text-transform:uppercase">TƯ VẤN MIỄN PHÍ: 1800 6684</p>
+					<h1 style="color:#003300; font-size:45px; padding-bottom:0; margin:0;text-transform:uppercase">AN GIẤC NỮ</h1>
+					<p style="color:#003300; font-size:25px; margin:0; padding:0;text-transform:uppercase">"QUẲNG MỌI LO ÂU, TRÒN SÂU GIẤC NGỦ"</p>
+					<p style="color:#df0d3f; font-size:25px; font-weight:bold; margin:0; padding:0;text-transform:uppercase">TƯ VẤN MIỄN PHÍ: 1800 6684</p>
 				</div>
 			</div>
 		</div>
@@ -227,8 +227,8 @@ if(isset($_POST['name'])) {
 								<p>Sau một thời gian sử dụng An Giấc Nữ, giấc ngủ đã quay trở lại với tôi thật dễ dàng. Dù không ngủ được 7-8 tiếng nhưng tôi vẫn cảm thấy thật tỉnh táo và sảng khoái mỗi khi thức dậy.
 								</p>
 								<div class="info">
-									<span>Nguyễn Thu Yến</span>
-									<p>Nhân viên văn phòng</p>
+									<span>Đặng Thanh Xuân</span>
+									<p>Nhân viên kế toán</p>
 								</div>
 							</li>
 							<li>
@@ -236,8 +236,8 @@ if(isset($_POST['name'])) {
 								<p>Tôi rất yên tâm khi sử dụng An Giấc Nữ vì thành phần của thuốc đều là những thảo dược mà mình biết. Sử dụng một thời gian tôi thấy thật bất ngờ khi kết hợp các loại thảo dược lại có thể tạo ra được 1 bài thuốc chữa trị mất ngủ hiệu quả đến như thế.
 								</p>
 								<div class="info">
-									<span>Trần Hoa</span>
-									<p>Nhân viên kinh doanh</p>
+									<span>Ngô Thị Nga</span>
+									<p>Hải Dương</p>
 								</div>
 							</li>
 							<li>
@@ -245,8 +245,8 @@ if(isset($_POST['name'])) {
 								<p>An Giấc Nữ đúng là bài thuốc mà tôi tìm kiếm bấy lâu nay. Tôi ngủ được sâu giấc hơn, không còn chập chờn, mộng mị và cả ngày luôn thấy khỏe khoắn, tràn đầy năng lượng.
 								</p>
 								<div class="info">
-									<span>Lê Mỹ Linh</span>
-									<p>Trợ lý giám đốc</p>
+									<span>Vũ Thị Cậy</span>
+									<p>Hoàng Mai - Hà Nội</p>
 								</div>
 							</li>
 							<li>
@@ -254,8 +254,8 @@ if(isset($_POST['name'])) {
 								<p>An Giấc Nữ như mang lại cho tôi một cuộc sống mới vậy. Tôi không còn bị mất ngủ nữa, không còn bị các cơn đau đầu do mất ngủ hành hạ. Cảm ơn An Giấc Nữ.
 								</p>
 								<div class="info">
-									<span>Ngô Mỹ Hân</span>
-									<p>Nhân viên CSKH</p>
+									<span>Nguyễn Thị Xuân</span>
+									<p>Hà Nội</p>
 								</div>
 							</li>
 							<li>
@@ -263,8 +263,8 @@ if(isset($_POST['name'])) {
 								<p>Trước đây, khi chưa sử dụng An Giấc Nữ, tôi rất khó khăn trong việc ngủ lại khi bị thức dậy giữa đêm, bây giờ thì điều đó không còn là vấn đề nữa, tôi có giấc ngủ lại thật dễ dàng.
 								</p>
 								<div class="info">
-									<span>Phạm Bích Ngọc</span>
-									<p>Huấn luyện viên</p>
+									<span>Chu Thị Thanh</span>
+									<p>Vinahankook Medical Supplies Co., JSC</p>
 								</div>
 							</li>
 						</ul>
@@ -304,7 +304,7 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="text-center wow fadeIn" style="visibility: visible; animation: fadeIn;">
-						<h2 data-selector="text1" style="color:#d14cb8; text-transform:uppercase; font-size:28px;">quy trình làm ra sản phẩm</h2>
+						<h2 data-selector="text1" style="color:#d14cb8; text-transform:uppercase; font-size:28px;">Thành phần sản phẩm</h2>
 						<p class="lead" data-selector="text2" style="color:#333333;font-size:18px;margin-bottom:10px;">
 							Sản phẩm được bào chế theo <strong>công thức đặc biệt</strong> bằng công nghệ hiện đại chiết xuất những gì tinh
 							<strong>túy nhất của dược liệu</strong> và cô đặc bên trong một viên nén đặc biệt có cấu tạo <strong>không bọc màng film
