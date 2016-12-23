@@ -211,7 +211,7 @@ if(isset($_POST['name'])) {
 	</section>
 </div>
 <div class="getleads">
-	<section id="cta1-3" class="p-y-md bg-edit" data-selector="block" style="background: url('images/bghome.png') top center; padding-top:30px;padding-bottom:10px;">
+	<section id="cta1-3" class="p-y-md bg-edit" data-selector="block" style="background: #f0f0f0; padding-top:30px;padding-bottom:10px;">
 		<div class="container">
 			<div class="row">
 
