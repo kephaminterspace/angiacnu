@@ -3,19 +3,14 @@ $message = '';
 $t=time();
 if(isset($_POST['name'])) {
 
-	$address_1 = "";
-	$question_1 = "";
-	if (isset($_POST['dia_chi_nhan_hang'])) {
-		$address_1 = $_POST['address_1'];
+	$choice='';
+	if(isset($_POST['choice'])){
+		$choice=$_POST['choice'];
 	}
-	elseif (isset($_POST['noi_dung_cau_hoi'])) {
-		$question_1 = $_POST['question_1'];
-	}
-
 	$arr = array(
 		'properties' => array(
 			array(
-				'property' => 'email',
+				'property' => 'new_email',
 				'value' => $_POST['email']
 			),
 			array(
@@ -31,12 +26,12 @@ if(isset($_POST['name'])) {
 				'value' => $_POST['phone']
 			),
 			array(
-				'property' => 'address_1',
-				'value' => $address_1
+				'property' => 'question_1',
+				'value' => $_POST['question_1']
 			),
 			array(
-				'property' => 'question_1',
-				'value' => $question_1
+				'property' => 'choice',
+				'value' => $choice
 			),
 			array(
 				'property' => 'hs_lead_status',
@@ -125,9 +120,9 @@ if(isset($_POST['name'])) {
 		<div class="container vertical-center-rel">
 			<div class="row">
 				<div style="text-align:center;">
-					<h1 style="color:#003300; font-size:45px; padding-bottom:0; margin:0;text-transform:uppercase">AN GIẤC NỮ</h1>
-					<p style="color:#003300; font-size:25px; margin:0; padding:0;text-transform:uppercase">"QUẲNG MỌI LO ÂU, TRÒN SÂU GIẤC NGỦ"</p>
-					<p style="color:#df0d3f; font-size:25px; font-weight:bold; margin:0; padding:0;text-transform:uppercase">TƯ VẤN MIỄN PHÍ: 1800 6684</p>
+					<h1 style="color:#ffffff; font-size:45px; padding-bottom:0; margin:0;text-transform:uppercase">AN GIẤC NỮ</h1>
+					<p style="color:#ffffff; font-size:25px; margin:0; padding:0;text-transform:uppercase">"QUẲNG MỌI LO ÂU, TRÒN SÂU GIẤC NGỦ"</p>
+					<p style="color:#ffffff; font-size:25px; font-weight:bold; margin:0; padding:0;text-transform:uppercase">TƯ VẤN MIỄN PHÍ: 1800 6684</p>
 				</div>
 			</div>
 		</div>
@@ -136,9 +131,10 @@ if(isset($_POST['name'])) {
 <div class="getleads">
 	<section id="contact7-1" class="p-t-md bg-edit bg-dark" data-selector="block" style="background-color:#fff;padding-top:50px;padding-bottom:50px;">
 		<div class="container">
+			<h3 style="text-align:center; color: #000000;">Ngủ sâu không bằng ngủ lâu</h3>
 			<div class="row">
 				<div class="col-md-6">
-					<div style="font-size: 29px; text-align:center;">Tôi 3 tháng trước</div>
+					<div style="font-size: 29px; text-align:center; color: #000000;">Tôi 3 tháng trước</div>
 					<div style="font-size: 25px; text-align:center;color: #a72592;"><strong>Dù cố ngủ 8 tiếng/ngày</strong></div>
 					<div class="truoc">
 						<div>Thiếu năng lượng<img src="images/cancel-icon.png"></div>
@@ -148,7 +144,7 @@ if(isset($_POST['name'])) {
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div style="font-size: 29px; text-align:center;">Tôi hiện tại</div>
+					<div style="font-size: 29px; text-align:center; color: #000000;">Tôi hiện tại</div>
 					<div style="font-size: 25px; text-align:center;color: #a72592;"><strong>Chỉ cần ngủ 6 tiếng/ngày</strong></div>
 					<div class="sau">
 						<div><img src="images/ok-icon.png">Tràn đầy năng lượng</div>
@@ -226,8 +222,8 @@ if(isset($_POST['name'])) {
 								<img src="images/khachang1.jpg" />
 								<p>Sau một thời gian sử dụng An Giấc Nữ, giấc ngủ đã quay trở lại với tôi thật dễ dàng. Dù không ngủ được 7-8 tiếng nhưng tôi vẫn cảm thấy thật tỉnh táo và sảng khoái mỗi khi thức dậy.
 								</p>
-								<div class="info">
-									<span>Đặng Thanh Xuân</span>
+								<div>
+									<span style="color:#333333;font-weight: bold;">Đặng Thanh Xuân</span>
 									<p>Nhân viên kế toán</p>
 								</div>
 							</li>
@@ -235,8 +231,8 @@ if(isset($_POST['name'])) {
 								<img src="images/khachang2.jpg" />
 								<p>Tôi rất yên tâm khi sử dụng An Giấc Nữ vì thành phần của thuốc đều là những thảo dược mà mình biết. Sử dụng một thời gian tôi thấy thật bất ngờ khi kết hợp các loại thảo dược lại có thể tạo ra được 1 bài thuốc chữa trị mất ngủ hiệu quả đến như thế.
 								</p>
-								<div class="info">
-									<span>Ngô Thị Nga</span>
+								<div>
+									<span style="color:#333333;font-weight: bold;">Ngô Thị Nga</span>
 									<p>Hải Dương</p>
 								</div>
 							</li>
@@ -244,8 +240,8 @@ if(isset($_POST['name'])) {
 								<img src="images/khachang3.jpg" />
 								<p>An Giấc Nữ đúng là bài thuốc mà tôi tìm kiếm bấy lâu nay. Tôi ngủ được sâu giấc hơn, không còn chập chờn, mộng mị và cả ngày luôn thấy khỏe khoắn, tràn đầy năng lượng.
 								</p>
-								<div class="info">
-									<span>Vũ Thị Cậy</span>
+								<div>
+									<span style="color:#333333;font-weight: bold;">Vũ Thị Cậy</span>
 									<p>Hoàng Mai - Hà Nội</p>
 								</div>
 							</li>
@@ -253,8 +249,8 @@ if(isset($_POST['name'])) {
 								<img src="images/khachang4.png" />
 								<p>An Giấc Nữ như mang lại cho tôi một cuộc sống mới vậy. Tôi không còn bị mất ngủ nữa, không còn bị các cơn đau đầu do mất ngủ hành hạ. Cảm ơn An Giấc Nữ.
 								</p>
-								<div class="info">
-									<span>Nguyễn Thị Xuân</span>
+								<div>
+									<span style="color:#333333;font-weight: bold;">Nguyễn Thị Xuân</span>
 									<p>Hà Nội</p>
 								</div>
 							</li>
@@ -262,8 +258,8 @@ if(isset($_POST['name'])) {
 								<img src="images/khachang5.jpg" />
 								<p>Trước đây, khi chưa sử dụng An Giấc Nữ, tôi rất khó khăn trong việc ngủ lại khi bị thức dậy giữa đêm, bây giờ thì điều đó không còn là vấn đề nữa, tôi có giấc ngủ lại thật dễ dàng.
 								</p>
-								<div class="info">
-									<span>Chu Thị Thanh</span>
+								<div>
+									<span style="color:#333333;font-weight: bold;">Chu Thị Thanh</span>
 									<p>Vinahankook Medical Supplies Co., JSC</p>
 								</div>
 							</li>
@@ -271,7 +267,7 @@ if(isset($_POST['name'])) {
 					</div>
 				</section>
 
-				<p style=" font-size:22px; padding:5px; font-weight:bold; color:#A72592; text-align:center; text-transform:uppercase">HƠN 20.000 PHỤ NỮ VIỆT NAM ĐÃ TIN DÙNG AN GIẤC NỮ</p>
+				<p style=" font-size:22px; padding:5px; font-weight:bold; color:#333333; text-align:center; text-transform:uppercase">HƠN 20.000 PHỤ NỮ VIỆT NAM ĐÃ TIN DÙNG AN GIẤC NỮ</p>
 
 				<!-- FlexSlider -->
 				<script defer src="js/jquery.flexslider.js"></script>
@@ -391,8 +387,8 @@ if(isset($_POST['name'])) {
 			<div class="row">
 				<form class="horizontal form-white" id="contactform" method="post" action="index.php#contact3-2">
 
-					<div class="col-md-6 col-md-offset-3">
-						<h4 class="f-w-900 m-b-md" data-selector="text3" style="color:#ffffff;font-size:20px;margin-bottom:10px; text-transform:none; font-weight:normal;">Xin qúy khách vui lòng điền đầy đủ những thông tin sau đây:</h4>
+					<div class="col-xs-12 col-sm-6">
+						<h4 style="color:#ffffff;text-transform:none; ">Bước 1: Điền thông tin khách hàng</h4>
 							<?php if(isset($message)){ ?>
 								<p style="color: red;
 											text-align: center;
@@ -411,19 +407,48 @@ if(isset($_POST['name'])) {
 							<div class="form-group">
 								<textarea id="question_1" name="question_1" class="form-control" rows="5" style="" placeholder="Nội dung câu hỏi & Địa chỉ nhận hàng"><?php if(isset($_POST['question_1'])) { echo $_POST['question_1']; } ?></textarea>
 							</div>
-							<div class="form-group m-b-0" style="margin: auto; text-align: center;">
-								<button type="submit" name="noi_dung_cau_hoi" class="btn btn-green wow pulse" data-wow-iteration="2" data-selector="btn" style="font-weight: 700; color: rgb(255, 255, 255); background-color: #A72592; border-width: 0px; border-style: solid; padding: 20px; font-size: 16px; max-width: 400px; visibility: visible; animation-iteration-count: 2; animation-name: pulse;">GỬI CÂU HỎI</button>
+							<div class="form-group">
+								<p style="color: #fff; font-size: 17px; text-align: center; margin-top: 20px; font-weight: 900;">
+									Chúng tôi cam kết <strong>BẢO MẬT</strong> mọi thông tin của khách hàng giống như bảo vệ tài sản của chính chúng tôi!
+								</p>
+
+
 							</div>
 					</div>
+
+					<div class="col-xs-12 col-sm-6" style="color:#ffffff;">
+						<h4>Bước 2: Lựa chọn gói liệu trình</h4>
+						<p>Xin quý khách vui lòng lựa chọn một trong ba gói liệu trình sau:</p>
+						<p>
+							<input name="choice" value="3" type="radio" <?php if(isset($_POST['choice'])){if($_POST['choice']==3){ echo 'checked="checked"'; }} ?>>
+							<span class="wpcf7-list-item-label">3 hộp ⇒ 645.000đ</span>
+						</p>
+
+						<p>
+							<input name="choice" value="5" type="radio" <?php if(isset($_POST['choice'])){if($_POST['choice']==5){ echo 'checked="checked"'; }} ?>>
+							<span class="wpcf7-list-item-label">5 hộp ⇒ 969.000đ (~10% ↓)</span>
+						</p>
+
+						<p>
+							<input name="choice" value="10" type="radio" <?php if(isset($_POST['choice'])){if($_POST['choice']==10){ echo 'checked="checked"'; }} ?>>
+							<span class="wpcf7-list-item-label">10 hộp ⇒ 1.900.000đ (~12% ↓)</span>
+						</p>
+						<br>
+						<div class="form-group m-b-0" style="margin: auto; text-align: center;">
+							<button type="submit" name="noi_dung_cau_hoi" class="btn btn-green wow pulse" data-wow-iteration="2" data-selector="btn" style="font-weight: 700; color: rgb(255, 255, 255); background-color: #f8981d; border-width: 0px; border-style: solid; padding: 20px; font-size: 16px; max-width: 400px; visibility: visible; animation-iteration-count: 2; animation-name: pulse;">GỬI ĐƠN HÀNG NGAY!</button>
+						</div>
+						<br>
+						<p><b>Lưu ý:</b></p>
+						<ul style="padding-left: 18px;font-size:14px;">
+							<li>Quý khách thanh toán sau khi nhận hàng.</li>
+							<li>Giá trên đã bao gồm toàn bộ chi phí cần thanh toán (đối với khách hàng tại Việt Nam).</li>
+							<li>Quý khách kiểm tra hàng trước khi thanh toán.</li>
+							<li>Hàng sẽ được giao trong vòng 1 - 2 ngày. Tuy nhiên khó tránh khỏi một số tình huống ngoài ý muốn gây ra chậm trễ, kính mong quý khách thông cảm.</li>
+							<li>Mọi phản ánh xin vui lòng gọi đến <a href="tel:18006684" style="color: #a72592; "><b>1800.6684</b></a></li>
+						</ul>
+					</div>
+
 				</form>
-			</div>
-			<div class="row">
-				<p style="color: #fff;
-					font-size: 22px;
-					text-align: center;
-					margin-top: 20px;">
-					Chúng tôi cam kết <strong>BẢO MẬT</strong> mọi thông tin của khách hàng giống như bảo vệ tài sản của chính chúng tôi!
-				</p>
 			</div>
 
 			<div class="row" style="border-top: 5px solid #A72592; margin-top:30px;">
